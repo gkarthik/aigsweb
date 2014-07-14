@@ -1,0 +1,33 @@
+Time : July 2nd, 3 pm
+Place : G+ Hangout
+
+Current site : https://sites.google.com/site/aigsatucsd/
+Credentials:
+	Google id: ucsd.aigs 
+password:deepajyothiparabrahma
+
+Design
+Static page vs CMS
+Google sites should provide good templates for handing this part. Lets get the username and password from Viraj and see what options we got?
+respondcms? Twitter Bootstrap with CMS backend - best of both worlds
+
+Execution
+Domain Name / Google Sites
+Domain name : Should ideally be aigs.ucsd.edu. For instance, ISA has http://isa.ucsd.edu/ - need someone to get this done?
+Narendran : to check with Skanda and mail CSEHelp to ask about aigs.ucsd.edu webspace and domain name availability.
+Currently a Google/Bing search for “aigs ucsd” returns the google site as the first result. So Google site should be good enough for now? Maybe setup a DNS redirect once we can obtain it from college?
+
+Content/Layout
+landing page - intro panel
+About Us - history + current presi sahab’s photo
+Current Events - calendar + registration + events
+Members - how many? some context
+Contact Us/Feedback
+Gallery
+contact us / webmaster doodle at the bottom
+Asad : CMS selection, Website design and Event photos.
+Vineet : Split the task of content creation for the website.
+references:
+http://wic.ucsd.edu/index.html
+
+`
