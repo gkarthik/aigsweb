@@ -1,8 +1,17 @@
+
 a. the navbar doesnt work properly yet (the highlights are not updated as the user scrolls down)
-b. Chaitanya's photo is missing.
-c. the gallery is under progress
-d. the links to each one's website is absent
-e.  
+b. the gallery is under progress
+
+c. Add Resources for incoming grads
+d. Add Calender of events/announcements/pinned posts for upcoming events -- possibly have a simple google calendar
+
+e. 'Connect with Us' link is broken
+f. Links to members' webpages are missing
+g. Events section is under progress -- Diwali, Holi, Fresher's welcome, Miscellaneous
+h. 'View our expenses' link needs to be added
+i. We can possibly add an "Archives" section, where we can post stuff from the old website.
+j. Fix member positions
+
 
 
 84H3X2cc
