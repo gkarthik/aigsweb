@@ -214,7 +214,8 @@ hr.white { border-color: #F3AE9B; }
   background: #fff; }
 .navigation-toggle .icon-bar+.icon-bar { margin-top: 4px; }
 #stat{ background: url('../img/bg_geisel.jpg') center bottom no-repeat; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-#newsletter { background: url('../img/bg_sunset.jpg') center bottom no-repeat; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#newsletter { background: url('../img/bg_landend.jpg') center bottom no-repeat; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#quote { background: url('../img/bg_hiddensteps.jpg') center bottom no-repeat; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 
 #stat .stat-info { font-size: 17pt; }
 #stat .stat { font-size: 100px; color: #2da9ff; }
