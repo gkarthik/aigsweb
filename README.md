@@ -2,10 +2,13 @@ aigsweb
 =======
 For the website aigs.ucsd.edu
 
+based on jekyll
+
 Setup
 =====
-a. Clone repository
-b. Execute "python -m SimpleHTTPServer"
-c. Navigate to "http://localhost:8000"
+* install [jekyll](http://jekyllrb.com)
+* Clone repository
+* Execute `jekyll serve --watch` at root directory of repo
+* Development server hosted at `http://localhost:4000` for preview
 
 Or do your own stuff
