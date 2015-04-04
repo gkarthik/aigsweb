@@ -1,0 +1,31 @@
+# Dependencies
+markdown:            kramdown
+highlighter:         pygments
+kramdown:
+  input: GFM
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+name        : AIGS@UCSD 
+title       : AIGS@UCSD (Association of Indian Graduate Students at UCSD)
+tagline     : 'Home of the Indian Graduate Students at UCSD'
+description : 'Home of the Indian Graduate Students at UCSD'
+url         : http://aigs.ucsd.edu/
+# url:                 http://localhost:4000
+baseurl     : /
+paginate    : 5
+
+# About/contact
+author:
+  name:              Sayed Asad Ali
+  url:               cseweb.ucsd.edu/~sayedasad/
+  email:             sayedasad@ucsd.edu
+
+# Custom vars
+version:             1.0.0
+# exclude: [vendor]
