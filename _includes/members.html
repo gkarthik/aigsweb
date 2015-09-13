@@ -7,140 +7,29 @@
 	<br/>
 	<section class="row travellers">
 
+		{% for member in site.data.members  %}
 		<div class="col-md-2 col-md-offset-1 col-sm-3 col-xs-6">
-			<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1000">
+			<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="200">
 				<div class="img-wrapper">
-					<img src="assets/img/members/viraj.jpg" class="img-responsive img-circle" alt="Viraj Deshpande">
+					{% if member.img != null  %}
+					<img src="assets/img/members/{{ member.img }}" class="img-responsive img-circle" alt="{{ member.name }}">
+					{% else %}
+					<img src="assets/img/members/cat.png" class="img-responsive img-circle member-thumbnail" alt="{{ member.name }}">
+					{% endif  %}
 				</div>
 				<br/>	
-				<div class="traveller-title">President</div>
-				<div class="name">Viraj</div>
-				<div class="sub">PhD CS</div>
-				<div class="email"><a href="mailto:vdeshpan@ucsd.edu">Email Viraj!</a></div>
+				<div class="traveller-title">{{ member.preferred_title }}</div>
+				<div class="name">{{ member.name }}</div>
+					{% if member.personal_website != null  %}
+					<div class="sub"><a href="{{ member.personal_website }}" target="_blank">{{ member.degree }}</a></div>
+					{% else  %}
+					<div class="sub">{{ member.degree }}</div>
+					{% endif  %}
+					<div class="email"><a href="mailto:{{ member.preferred_email}}">Email {{ member.name }}!</a></div>
 			</div>						
 		</div>
-
-		<div class="col-md-2 col-sm-3 col-xs-6">
-			<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="500">
-				<div class="img-wrapper">
-					<img src="assets/img/members/narendran.jpg" class="img-responsive img-circle" alt="Narendran Thangarajan">
-				</div>
-				<br/>	
-				<div class="traveller-title">Co-President</div>
-				<div class="name">Narendran</div>
-				<div class="sub">MS CS</a></div>
-				<div class="email"><a href="mailto:naren@ucsd.edu">Email Naren!</a></div>
-			</div>
-		</div>
-		<div class="clearfix visible-xs"></div>
-
-		<div class="col-md-2 col-sm-3 col-xs-6">
-			<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="0">
-				<div class="img-wrapper">
-					<img src="assets/img/members/vineet_c.jpg" class="img-responsive img-circle" alt="Vineet Pandey">
-				</div>
-				<br/>	
-				<div class="traveller-title">Co-President</div>
-				<div class="name">Vineet</div>
-				<div class="sub"><a href="http://cseweb.ucsd.edu/~vipandey" target="_blank">PhD CS</a>
-					<div class="email"><a href="mailto:vipandey@ucsd.edu">Email Vineet!</a></div>
-				</div>
-				</div>
-		</div>
-
-		<div class="col-md-2 col-sm-3 col-xs-6">
-			<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1000">
-				<div class="img-wrapper">
-					<img src="assets/img/members/sid.jpg" class="img-responsive img-circle" alt="Siddhartha Nath">
-				</div>
-				<br/>	
-				<div class="traveller-title">Advisory President</div>
-				<div class="name">Siddhartha</div>
-				<div class="sub">PhD CS</div>
-				<div class="email"><a href="mailto:sinath@ucsd.edu">Email Siddhartha!</a></div>
-			</div>
-		</div>
-		<div class="col-md-2 col-sm-3 col-xs-6">
-			<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1500">
-				<div class="img-wrapper">
-					<img src="assets/img/members/gautam.jpg" class="img-responsive img-circle" alt="Gautam Akiwate">
-				</div>
-				<br/>
-				<div class="traveller-title">Chair, External Affairs</div>
-				<div class="name">Gautam</div>
-				<div class="sub">MS CS</div>
-			</div>
-		</div>
-
-		<div class="clearfix"></div>
-		<div class="col-md-2 col-md-offset-1 col-sm-3 col-xs-6">
-			<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="0">
-				<div class="img-wrapper">
-					<img src="assets/img/members/shibu.jpg" class="img-responsive img-circle" alt="Shibu Lawrence">
-				</div>
-				<br/>	
-				<div class="traveller-title">Chair, Food</div>
-				<div class="name">Shibu</div>
-				<div class="sub"><a target="_blank" href="#">MS CS</a></div>
-			</div>
-		</div>
-
-		<div class="col-md-2 col-sm-3 col-xs-6">
-			<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1500">
-				<div class="img-wrapper">
-					<img src="assets/img/members/mohit.jpg" class="img-responsive img-circle" alt="Mohit Kothari">
-				</div>
-				<br/>
-				<div class="traveller-title">Chair, Cultural Affairs</div>
-
-				<div class="name">Mohit</div>
-				<div class="sub"><a target="_blank" href="http://cseweb.ucsd.edu/~mkothari">MS CS</a></div>
-			</div>
-		</div>
-
-		<div class="clearfix visible-xs"></div>
-
-		<div class="col-md-2 col-sm-3 col-xs-6">
-			<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1000">
-				<div class="img-wrapper">
-					<img src="assets/img/members/sonali.jpg" class="img-responsive img-circle" alt="Sonali Rahagude">
-				</div>
-				<br/>	
-				<div class="traveller-title">Chair, Design & Publicity</div>
-				<div class="name">Sonali</div>
-				<div class="sub">MS CS</div>
-			</div>
-		</div>
-
-		<div class="col-md-2 col-sm-3 col-xs-6">
-			<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1500">
-				<div class="img-wrapper">
-					<img src="assets/img/members/asad.jpg" class="img-responsive img-circle" alt="Sayed Asad Ali">
-				</div>
-				<br/>
-				<div class="traveller-title">Chair, Design & Publicity</div>
-				<div class="name">Asad</div>
-				<div class="sub"><a href="http://cseweb.ucsd.edu/~sayedasad" target="_blank">MS CS</a></div>
-			</div>
-		</div>
-
-		<div class="col-md-2 col-sm-3 col-xs-6">
-			<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1500">
-				<div class="img-wrapper">
-					<img src="assets/img/members/chetan.jpg" class="img-responsive img-circle" alt="Chetan Gokhale">
-				</div>
-				<br/>
-				<div class="traveller-title">Chair, Newsletter</div>
-				<div class="name">Chetan</div>
-				<div class="sub">MS CS</div>
-			</div>
-		</div>
-
-		<div class="clearfix visible-xs"></div>
-
-	</div>
+		{% endfor  %}
 </section>
 </div>
-<br/><br/>
 </section>
 <!-- End Member Section -->

@@ -49,6 +49,16 @@ a:visited { color: #a0a; }
   font-size: 80%;
 }
 
+.speaker-item > .img-wrapper > img{
+  height: 132px;
+  margin: 0 auto;
+}
+
+.speaker-item > .img-wrapper > .member-thumbnail{
+  border: 1px solid #000;
+  padding: 10px;
+}
+
 /*****************************************************************************/
 /*
 /* Site

@@ -90,7 +90,7 @@
           element.find('.value').countTo();
         }
       }    
-    },{accY: -150});
+    },{accY: -250});
     
     $('#header').waypoint('sticky', {
         wrapper: '<div class="sticky-wrapper" />',
